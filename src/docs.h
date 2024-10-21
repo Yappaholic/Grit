@@ -2,5 +2,6 @@
 #define DOCS_H
 
 void help();
+void help_install();
 
 #endif

@@ -11,3 +11,9 @@ void help() {
     " q - Search a package\n"
     " r - Remove a package\n");
 }
+
+void help_install() {
+  std::printf(
+  " grit i: Install a package in the available grit repository\n" 
+  );
+}

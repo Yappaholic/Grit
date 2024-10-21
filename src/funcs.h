@@ -13,4 +13,6 @@ namespace call {
 }
 // Check the invoking call and return the call code
 call::call_code call_check (std::string const& call);
+int install(int argc, char *argv[]);
+int read_config(char *name);
 #endif

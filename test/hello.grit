@@ -1,0 +1,15 @@
+NAME="hello"
+DESCRIPTION="Simple hello programm"
+SRC="https://github.com/yappaholic/hello.git"
+
+gprepare() {
+  cd ${BUILD_DIR}
+}
+
+gbuild() {
+  $(CXX) -o hello hello.cpp
+}
+
+ginstall() {
+  cp ${BUILD_DIR}/hello /opt/bin/
+}
